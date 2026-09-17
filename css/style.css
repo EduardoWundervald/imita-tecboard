@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Sora";
+    src: url("../fonts/FonteTitulo-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/FonteTexto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEF4FB;
+    color: #1B2A41;
+}
+
+header img {
+    display: block;
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+h1 {
+    font-size: 52px;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    margin-top: 48px;
+    letter-spacing: 1px;
+}
+
+h1 span {
+    color: #2563EB;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 32px;
+    width: 680px;
+    margin: 24px auto 0 auto;
+}
+
+a {
+    display: block;
+    width: 280px;
+    height: 54px;
+    line-height: 54px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 36px auto;
+}
+a:hover {
+    background-color: #1D4ED8;
+}
+
+section img {
+    display: block;
+    width: 720px;
+    height: 405px;
+    margin: 0 auto 60px auto;
+}
